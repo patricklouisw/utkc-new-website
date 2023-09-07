@@ -7,8 +7,8 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 export function Footer() {
   return (
-    <footer className="w-full bg-gray-200 py-14">
-      <div className="max-w-6xl mx-auto grid grid-cols-4">
+    <footer className="w-full bg-gray-200 py-14 px-4">
+      <div className="max-w-7xl mx-auto grid grid-cols-4">
         <div className="col-span-2 flex flex-col justify-between gap-4">
           <Image
             src="/images/footer/banner-logo-5.png"
