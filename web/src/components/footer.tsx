@@ -36,9 +36,9 @@ export function Footer() {
             <Link href="https://www.instagram.com/uoftkarate/" target="_blank">
               <FaInstagram className="w-7 h-7" />
             </Link>
-            <Link href="/" target="_blank">
+            {/* <Link href="/" target="_blank">
               <FaDiscord className="w-7 h-7" />
-            </Link>
+            </Link> */}
             <Link href="https://www.youtube.com/user/utkc63" target="_blank">
               <FaYoutube className="w-7 h-7" />
             </Link>
