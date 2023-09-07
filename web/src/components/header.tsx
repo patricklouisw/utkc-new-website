@@ -12,22 +12,22 @@ export function Header() {
         </Link>
         <div className="flex items-center gap-4">
           <Link
-            href="/#features"
+            href="/"
             className="font-medium text-sm text-black hover:opacity-90"
           >
             About
           </Link>
           <Link
-            href="/#pricing"
+            href="/"
             className="font-medium text-sm text-black hover:opacity-90"
           >
             About
           </Link>
           <Link
-            href="/dashboard"
+            href="/"
             className="font-medium text-sm text-white bg-black px-4 py-2 rounded-lg hover:opacity-90"
           >
-            About
+            Sign Up Here!
           </Link>
         </div>
       </div>
