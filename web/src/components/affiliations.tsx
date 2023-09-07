@@ -3,7 +3,7 @@ import Image from "next/image";
 export function Affiliations() {
   return (
     <div className="w-full py-14">
-      <div className="max-w-5xl mx-auto flex flex-row justify-center items-center gap-10">
+      <div className="max-w-6xl mx-auto flex flex-row justify-center items-center gap-10">
         <Image
           src="/images/footer/affiliations/KO_Logo_Small.jpg"
           width={125}

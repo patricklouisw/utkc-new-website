@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="w-full py-10">
-      <div className="max-w-5xl mx-auto flex flex-col gap-6">
+      <div className="max-w-6xl mx-auto flex flex-col gap-6">
         <h1 className="text-4xl font-semibold leading-none tracking-wide">
           Club Constitution
         </h1>
