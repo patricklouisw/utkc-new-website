@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaInstagram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 
 export function Footer() {
   return (
@@ -24,11 +26,21 @@ export function Footer() {
             Jinbukai Canada
           </p>
           <div className="inline-flex gap-3">
-            <Link href="/">
+            <Link
+              href="https://www.facebook.com/uoftkarateclub/"
+              target="_blank
+          "
+            >
+              <FaFacebookSquare className="w-7 h-7" />
+            </Link>
+            <Link href="https://www.instagram.com/uoftkarate/" target="_blank">
               <FaInstagram className="w-7 h-7" />
             </Link>
-            <Link href="/">
+            <Link href="/" target="_blank">
               <FaDiscord className="w-7 h-7" />
+            </Link>
+            <Link href="https://www.youtube.com/user/utkc63" target="_blank">
+              <FaYoutube className="w-7 h-7" />
             </Link>
           </div>
         </div>
