@@ -27,7 +27,7 @@ export default function RootLayout({
         sizes="any"
         href="/favicon/favicon.png"
       />
-      <body className={poppins.className}>
+      <body className={poppins.className + "relative"}>
         <Header />
         {children}
         <Affiliations />
