@@ -41,10 +41,7 @@ export function Header() {
       }}
     >
       <div className="flex items-center gap-8 justify-between py-4">
-        <Link
-          href={"/"}
-          className="text-2xl font-semibold text-black hover:opacity-90"
-        >
+        <Link href={"/"} className="hover:opacity-10">
           <img
             src="/images/logo/logo-ink-transparent-backgroundv5.png"
             alt=""
