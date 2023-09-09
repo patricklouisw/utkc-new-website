@@ -7,7 +7,7 @@ export function Header() {
   const [clientWindowHeight, setClientWindowHeight] = useState(0);
 
   const [backgroundTransparacy, setBackgroundTransparacy] = useState(0);
-  const [padding, setPadding] = useState(30);
+  const [padding, setPadding] = useState(0);
   const [boxShadow, setBoxShadow] = useState(0);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export function Header() {
     let backgroundTransparacyVar = clientWindowHeight / 600;
 
     if (backgroundTransparacyVar < 1) {
-      let paddingVar = 30 - backgroundTransparacyVar * 20;
+      let paddingVar = 0 - backgroundTransparacyVar * 20;
       let boxShadowVar = backgroundTransparacyVar * 0.1;
       setBackgroundTransparacy(backgroundTransparacyVar);
       setPadding(paddingVar);
@@ -36,7 +36,7 @@ export function Header() {
       className="m-auto w-full fixed top-0 z-40"
       style={{
         background: `rgba(255, 255, 255, ${backgroundTransparacy})`,
-        padding: `${padding}px 0px`,
+        padding: `${padding}px 10px`,
         boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
       }}
     >
@@ -51,7 +51,7 @@ export function Header() {
             className="w-1/2"
           />
         </Link>
-        <div className="flex items-center gap-20">
+        <div className="flex items-center gap-10">
           <Link
             href="/"
             className="font-medium text-lg text-black hover:opacity-90"
