@@ -1,6 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import { Providers } from "./providers";
+
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { Affiliations } from "@/components/affiliations";
@@ -28,10 +30,12 @@ export default function RootLayout({
         href="/favicon/favicon.png"
       />
       <body className={poppins.className + "relative"}>
-        <Header />
-        {children}
-        <Affiliations />
-        <Footer />
+        <Providers>
+          <Header />
+          {children}
+          <Affiliations />
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
