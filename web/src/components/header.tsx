@@ -20,7 +20,14 @@ export function Header() {
   };
 
   useEffect(() => {
+    setClientWindowHeight(window.scrollY);
     let backgroundTransparacyVar = clientWindowHeight / 600;
+
+    if (clientWindowHeight != 0 && backgroundTransparacyVar >= 1) {
+      setBackgroundTransparacy(0.99);
+      setPadding(0);
+      setBoxShadow(0.1);
+    }
 
     if (backgroundTransparacyVar < 1) {
       let paddingVar = 0 - backgroundTransparacyVar * 20;

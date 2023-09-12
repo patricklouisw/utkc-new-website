@@ -12,7 +12,7 @@ export default function FAQ() {
 
   return (
     <div className="w-full h-50 py-32 bg-white">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-5">
         <h2 className="text-4xl font-semibold leading-normal mb-10 text-center">
           Frequently Asked Questions (FAQ)
         </h2>
