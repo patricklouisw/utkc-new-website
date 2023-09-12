@@ -14,9 +14,9 @@ export default function Summary() {
             <h3 className="text-2xl font-semibold leading-normal">
               Fall & Winter Semester
             </h3>
-            <div className="relative overflow-x-auto shadow-md mb-5">
-              <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                <thead className="text-xs text-white uppercase bg-gray-50 dark:bg-gray-700 dark:text-white">
+            <div className="relative overflow-x-auto shadow-md mb-5 ">
+              <table className="w-full text-sm text-left bg-slate-200">
+                <thead className="text-xs uppercase bg-slate-300  ">
                   <tr>
                     <th scope="col" className="px-6 py-3">
                       Day
@@ -30,30 +30,30 @@ export default function Summary() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                  <tr className="bg-slate-100  ">
                     <th
                       scope="row"
-                      className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      className="px-6 py-4 font-medium bg-slate-100 whitespace-nowrap "
                     >
                       Every Tuesday
                     </th>
                     <td className="px-6 py-4">9 PM to 11 PM</td>
                     <td className="px-6 py-4">Athletic Center dance Studio</td>
                   </tr>
-                  <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                  <tr className="border-b bg-slate-100">
                     <th
                       scope="row"
-                      className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      className="px-6 py-4 font-medium  whitespace-nowrap "
                     >
                       Every Friday
                     </th>
                     <td className="px-6 py-4">7.30 PM to 10.30 PM</td>
                     <td className="px-6 py-4">Athletic Center dance Studio</td>
                   </tr>
-                  <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                  <tr className="bg-slate-100 border-b  ">
                     <th
                       scope="row"
-                      className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      className="px-6 py-4 font-medium bg-slate-100 whitespace-nowrap "
                     >
                       Every Saturday
                     </th>
@@ -66,55 +66,53 @@ export default function Summary() {
             <h3 className="text-2xl font-semibold leading-normal">
               Spring & Summer Semester
             </h3>
-            <div className="relative overflow-x-auto shadow-md ">
-              <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                <thead className="text-xs text-white uppercase bg-gray-50 dark:bg-gray-700 dark:text-white">
-                  <tr>
-                    <th scope="col" className="px-6 py-3">
-                      Day
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      Time
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      Location
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      Every Tuesday
-                    </th>
-                    <td className="px-6 py-4">7 PM to 9 PM</td>
-                    <td className="px-6 py-4">Athletic Center dance Studio</td>
-                  </tr>
-                  <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      Every Friday
-                    </th>
-                    <td className="px-6 py-4">7 PM to 9 PM</td>
-                    <td className="px-6 py-4">Athletic Center dance Studio</td>
-                  </tr>
-                  <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      Every Saturday
-                    </th>
-                    <td className="px-6 py-4">1.30 PM to 4.30 PM</td>
-                    <td className="px-6 py-4">Athletic Center dance Studio</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <table className="w-full text-sm text-left bg-slate-200">
+              <thead className="text-xs uppercase bg-slate-300  ">
+                <tr>
+                  <th scope="col" className="px-6 py-3">
+                    Day
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    Time
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                    Location
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-slate-100  ">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-medium bg-slate-100 whitespace-nowrap "
+                  >
+                    Every Tuesday
+                  </th>
+                  <td className="px-6 py-4">7 PM to 9 PM</td>
+                  <td className="px-6 py-4">Athletic Center dance Studio</td>
+                </tr>
+                <tr className="border-b bg-slate-100">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-medium  whitespace-nowrap "
+                  >
+                    Every Friday
+                  </th>
+                  <td className="px-6 py-4">7 PM to 9 PM</td>
+                  <td className="px-6 py-4">Athletic Center dance Studio</td>
+                </tr>
+                <tr className="bg-slate-100 border-b  ">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-medium bg-slate-100 whitespace-nowrap "
+                  >
+                    Every Saturday
+                  </th>
+                  <td className="px-6 py-4">1.30 PM to 4.30 PM</td>
+                  <td className="px-6 py-4">Athletic Center dance Studio</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
           {/* Location */}

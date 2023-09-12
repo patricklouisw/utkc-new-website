@@ -1,7 +1,7 @@
 export default function Summary() {
   return (
     <div className="w-full py-20 bg-white px-4">
-      <div className="max-w-7xl mx-auto flex justify-between">
+      <div className="max-w-7xl mx-auto flex justify-around">
         <div className="flex flex-col justify-center items-start gap-6">
           <div>
             <h2 className="text-3xl font-semibold leading-normal mb-2">

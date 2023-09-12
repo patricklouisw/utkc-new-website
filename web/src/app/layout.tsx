@@ -29,7 +29,10 @@ export default function RootLayout({
         sizes="any"
         href="/favicon/favicon.png"
       />
-      <body className={poppins.className + "relative"}>
+      <body
+        className={poppins.className + "relative"}
+        suppressHydrationWarning={true}
+      >
         <Providers>
           <Header />
           {children}
